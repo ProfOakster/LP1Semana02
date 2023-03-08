@@ -11,6 +11,12 @@ namespace PerguntaValores
             Console.WriteLine("Input cylinder height:");
             string inp = Console.ReadLine();
             a = float.Parse(inp);
+
+            Console.WriteLine("Input cylinder radius:");
+            inp = Console.ReadLine();
+            r = float.Parse(inp);
+
+
         }
     }
 }
