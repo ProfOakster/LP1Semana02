@@ -16,7 +16,12 @@ namespace PerguntaValores
             inp = Console.ReadLine();
             r = float.Parse(inp);
 
+            float v = 3.1415926f * r * r * a;
+            float sa = 2 * 3.1415926f * r * (r + a);
 
+            Console.WriteLine(
+                $"Cylinder volume is {v}.\nCylinder surface area is {sa}."
+                );
         }
     }
 }
