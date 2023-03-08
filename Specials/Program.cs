@@ -49,12 +49,14 @@ namespace Specials
             );
 
             int int_ovfw = in_max+1;
+            Console.WriteLine($"int overflow:{int_ovfw}");
 
-            Console.WriteLine(int_ovfw);
+            float ft_ovfw1 = ft_max*2, fl_ovfw2= ++ft_max;
+            Console.WriteLine(
+                $"float overflow: infinity:{ft_ovfw1}; rejection:{fl_ovfw2}"
+            );
 
-
-
-
+            
 
 
 
