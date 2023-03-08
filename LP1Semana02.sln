@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GranpaPatternSwitch", "Gran
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BreakContinue", "BreakContinue\BreakContinue.csproj", "{7F8AF9C4-F83A-4DA2-BF30-6E3C11E590DF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatGPTMother", "ChatGPTMother\ChatGPTMother.csproj", "{3570FA77-3889-4A9E-B114-51A23A6CE360}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,5 +56,9 @@ Global
 		{7F8AF9C4-F83A-4DA2-BF30-6E3C11E590DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F8AF9C4-F83A-4DA2-BF30-6E3C11E590DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F8AF9C4-F83A-4DA2-BF30-6E3C11E590DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3570FA77-3889-4A9E-B114-51A23A6CE360}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3570FA77-3889-4A9E-B114-51A23A6CE360}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3570FA77-3889-4A9E-B114-51A23A6CE360}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3570FA77-3889-4A9E-B114-51A23A6CE360}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
