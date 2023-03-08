@@ -16,7 +16,12 @@ namespace PerguntaValores
             inp = Console.ReadLine();
             r = float.Parse(inp);
 
+            float v = Math.PI * Math.Pow(r,2) * a;
+            float sa = 2 * Math.PI * r * (r + a);
 
+            Console.WriteLine(
+                $"Cylinder volume is {v}.\nCylinder surface area is {sa}."
+                );
         }
     }
 }
