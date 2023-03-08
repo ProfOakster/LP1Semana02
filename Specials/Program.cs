@@ -56,7 +56,12 @@ namespace Specials
                 $"float overflow: infinity:{ft_ovfw1}; rejection:{fl_ovfw2}"
             );
 
-            
+            double db_unfw1 = 1000000000000000.0;
+            double db_unfw2 = db_unfw1 + 0.00000000000000001;
+            Console.WriteLine(
+                $"double underflow: {db_unfw1}+0.00000001={db_unfw2}"
+            );
+
 
 
 
