@@ -18,7 +18,15 @@ namespace Specials
             double db_max = double.MaxValue, db_min = double.MinValue;
             decimal dc_max = decimal.MaxValue, dc_min = decimal.MinValue;
             char ch_max = char.MaxValue, ch_min = char.MinValue;
-            
+
+            float ft_posinf = float.PositiveInfinity,
+            ft_neginf = float.NegativeInfinity,
+            ft_nan = float.NaN;
+
+            double db_posinf = double.PositiveInfinity,
+            db_neginf = double.NegativeInfinity,
+            db_nan = double.NaN;
+
             Console.WriteLine($"sbyte: max value={sb_max} ; min value={sb_min}");
             Console.WriteLine($"byte: max value={b_max} ; min value={b_min}");
             Console.WriteLine($"short: max value={sh_max} ; min value={sh_min}");
@@ -31,8 +39,14 @@ namespace Specials
             Console.WriteLine($"double: max value={db_max} ; min value={db_min}");
             Console.WriteLine($"decimal: max value={dc_max} ; min value={dc_min}");
             Console.WriteLine($"char: max value={ch_max} ; min value={ch_min}");
-            
-            
+
+            Console.WriteLine(
+                $"float specials: +Inf={ft_posinf}; -Inf={ft_neginf}; NaN={ft_nan}"
+                );
+
+                Console.WriteLine(
+                $"double specials: +Inf={db_posinf}; -Inf={db_neginf}; NaN={db_nan}"
+                );
         }
     }
 }
