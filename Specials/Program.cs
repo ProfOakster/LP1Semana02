@@ -42,11 +42,23 @@ namespace Specials
 
             Console.WriteLine(
                 $"float specials: +Inf={ft_posinf}; -Inf={ft_neginf}; NaN={ft_nan}"
-                );
+            );
 
-                Console.WriteLine(
+            Console.WriteLine(
                 $"double specials: +Inf={db_posinf}; -Inf={db_neginf}; NaN={db_nan}"
-                );
+            );
+
+            int int_ovfw = in_max+1;
+
+            Console.WriteLine(int_ovfw);
+
+
+
+
+
+
+
+
         }
     }
 }
