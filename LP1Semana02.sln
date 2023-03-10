@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatGPTMother", "ChatGPTMot
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Triangle", "Triangle\Triangle.csproj", "{EF1F312F-0AB7-47C7-B587-BEB8A58408AF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HardDiamond", "HardDiamond\HardDiamond.csproj", "{3CEBC478-B798-4D1D-8070-0903D235667B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -66,5 +68,9 @@ Global
 		{EF1F312F-0AB7-47C7-B587-BEB8A58408AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF1F312F-0AB7-47C7-B587-BEB8A58408AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF1F312F-0AB7-47C7-B587-BEB8A58408AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CEBC478-B798-4D1D-8070-0903D235667B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CEBC478-B798-4D1D-8070-0903D235667B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CEBC478-B798-4D1D-8070-0903D235667B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CEBC478-B798-4D1D-8070-0903D235667B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
